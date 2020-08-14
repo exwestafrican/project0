@@ -6,4 +6,7 @@ time_out_settings = {
 
 url = "https://www.abokifx.com/home_bdc_rate"
 
+# frequency determines how often the scrapper runs.
+# frequency in secs
+frequency = 3600
 

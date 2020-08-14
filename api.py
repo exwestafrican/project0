@@ -4,7 +4,6 @@ from requests.exceptions import ConnectTimeout, ReadTimeout
 from utils import CallCounter
 
 
-
 def make_request(url, timeout=None, *args, **kwargs):
     """
     makes a get request to the specified url 
@@ -12,7 +11,6 @@ def make_request(url, timeout=None, *args, **kwargs):
     timeout = timeout if timeout else time_out_settings["request_time_out"]
 
     try:
-        # response = make_request(url, timeout=1)
         response = requests.get(url, timeout=timeout)
         response.raise_for_status()
 

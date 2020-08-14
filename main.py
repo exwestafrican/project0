@@ -1,9 +1,9 @@
 from api import make_request
-from settings import url
+from settings import url, frequency
 from data import get_raw_data
-from utils import get_buy_sell, create_currency_rate_object, append_currency_object
+from utils import get_buy_sell, append_currency_object
 import json
-from settings import url
+import time
 
 
 json_list = []
@@ -30,4 +30,7 @@ def main():
         my_file.write(json.dumps(json_list, indent=2))
 
 
-main()
+
+while True:
+    main()
+time.sleep(frequency)

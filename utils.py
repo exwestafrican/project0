@@ -1,5 +1,8 @@
 from exceptions import InvalidInput
 from datetime import datetime
+from settings import time_out_settings
+import requests
+from requests.exceptions import ConnectTimeout, ReadTimeout
 
 
 class CallCounter:
@@ -35,34 +38,49 @@ def full_clean(data):
     return data.strip("/n")
 
 
-def get_buy_sell(prices: str):
-    prices = prices.split("/")
-    float_price = []
-    for price in prices:
-        price = float(price)
-        float_price.append(price)
-    return float_price
-
-
-def create_currency_rate_object(buy, sell, quote_currency=None, base_currency="NGN"):
-    return {
-        "base_currency": base_currency,
-        "quote_curreny": quote_currency,
-        "buy": buy,
-        "sell": sell,
-    }
-
-
-def append_currency_object(price, currency_data, json_list):
-    buy, sell = get_buy_sell(price)
-    # currency_data["price"] = price
-    return json_list.append(create_currency_rate_object(buy, sell, **currency_data))
-
-
 def convert_str_to_date_time(date_str, date_format="%d/%m/%y"):
     """
     converts a string 
     into a date time object
     """
     return datetime.strptime(date_str, date_format)
+
+
+def make_request(url, timeout=None, *args, **kwargs):
+    """
+        makes a get request to the specified url 
+        """
+    timeout = timeout if timeout else time_out_settings["request_time_out"]
+
+    try:
+        response = requests.get(url, timeout=timeout)
+        response.raise_for_status()
+
+    except ConnectTimeout as e:
+        timeout = time_out_settings["connection_time_out"]
+        # if a connection time out occurs,
+        # bad network?  give allowance
+        # and attempt to reconnect
+        return make_request(url, timeout=timeout)
+
+    except ReadTimeout as r:
+        timeout = time_out_settings["read_time_out"]
+        # error while reading file
+        # increase request time out
+        # attempt to reconncet
+        return make_request(url, timeout=timeout)
+        # send email about this?
+
+    else:
+        if response.status_code == 200:
+            # return response
+            return response
+        else:
+            # something bad happened send an email about status code
+            pass
+
+
+make_request = CallCounter(make_request, 5)
+
+
 

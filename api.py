@@ -1,43 +1,96 @@
 from settings import time_out_settings
 import requests
 from requests.exceptions import ConnectTimeout, ReadTimeout
-from utils import CallCounter
+from utils import CallCounter, make_request
+from abc import ABC, abstractmethod
+from bs4 import BeautifulSoup
+import json
 
 
-def make_request(url, timeout=None, *args, **kwargs):
-    """
-    makes a get request to the specified url 
-    """
-    timeout = timeout if timeout else time_out_settings["request_time_out"]
+class FetchWebsiteData(ABC):
+    def __init__(self, url, site_name):
+        self.url = url
+        self.site_name = site_name
+        self.json_list = []
+        super().__init__()
 
-    try:
-        response = requests.get(url, timeout=timeout)
-        response.raise_for_status()
+    @abstractmethod
+    def get_raw_data(self):
+        pass
 
-    except ConnectTimeout as e:
-        timeout = time_out_settings["connection_time_out"]
-        # if a connection time out occurs,
-        # bad network?  give allowance
-        # and attempt to reconnect
-        return make_request(url, timeout=timeout)
+    @abstractmethod
+    def get_table_content(self):
+        pass
 
-    except ReadTimeout as r:
-        timeout = time_out_settings["read_time_out"]
-        # error while reading file
-        # increase request time out
-        # attempt to reconncet
-        return make_request(url, timeout=timeout)
-        # send email about this?
-
-    else:
-        if response.status_code == 200:
-            # return response
-            return response
-        else:
-            # something bad happened send an email about status code
-            pass
+    @abstractmethod
+    def run_scraper(self, file_name):
+        self.get_table_content()
+        with open(file_name, "w") as my_file:
+            my_file.write(json.dumps(self.json_list, indent=2))
 
 
-# CallCounter(func,limit)
-make_request = CallCounter(make_request, 5)
+class AbokiFxWebsiteData(FetchWebsiteData):
+    def __init__(self, url, site_name):
+        super().__init__(url, site_name)
 
+    def get_raw_data(self, url):
+        """
+        gets raw data from Aboki FX
+        """
+        response = make_request(url)
+        soup = BeautifulSoup(response.text, features="lxml")
+        home_body = soup.find("div", class_="wrapper-home")
+        container = home_body.find("div", class_="website-content-body rate-details")
+        main_section = container.find("div", class_="main-section")
+        lagos_market_rates = main_section.find("div", class_="lagos-market-rates")
+        table = lagos_market_rates.find("div", class_="table-grid").table
+        all_table_data = table.find_all("tr", class_="table-line")
+
+        return all_table_data
+
+    def get_buy_sell(self, prices: str):
+        """
+        splits currency pairs and returns buy sell
+        """
+        prices = prices.split("/")
+        float_price = []
+        for price in prices:
+            price = float(price)
+            float_price.append(price)
+        return float_price
+
+    def get_table_content(self):
+        """
+        stores a list of content in each column
+        """
+        all_table_data = self.get_raw_data(self.url)
+        for table_data in all_table_data:
+            table_items = table_data.find_all("td")
+            date = table_items[0].text
+            usd_price = table_items[1].text
+            gpb_price = table_items[2].text
+            eur_price = table_items[3].text
+            self.extend_json_list([usd_price, gpb_price, eur_price])
+
+    def create_json_object(self, buy, sell, quote_currency, base_currency):
+        return {
+            "base_currency": base_currency,
+            "quote_curreny": quote_currency,
+            "buy": buy,
+            "sell": sell,
+        }
+
+    def extend_json_list(self, prices):
+        currency_pairs = [
+            {"quote_currency": "USD", "base_currency": "NGN"},
+            {"quote_currency": "GBP", "base_currency": "NGN"},
+            {"quote_currency": "EUR", "base_currency": "NGN"},
+        ]
+        for price, currency_pair in zip(prices, currency_pairs):
+            buy, sell = self.get_buy_sell(price)
+            currency_pair["buy"] = buy
+            currency_pair["sell"] = sell
+            self.json_list.append(self.create_json_object(**currency_pair))
+
+    def run_scraper(self, file_name):
+        super().run_scraper(file_name)

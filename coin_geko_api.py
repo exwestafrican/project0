@@ -102,6 +102,5 @@ class CoinGekopWebsiteData(FetchWebsiteData):
         }
 
     def run_scraper(self):
-
         super().run_scraper()
 

@@ -89,15 +89,14 @@ class CoinGekopWebsiteData(FetchWebsiteData):
             change.append(data)
         return data_set
 
-    def create_json_object(
-        self, coin_name_abv, full_coin_name, price, volume_24hr, current_price_currency
+    def create_json_object(        self, coin_name_abv, full_coin_name, price, volume_24hr, current_price_currency
     ):
         return {
-            "coin name": coin_name_abv,
-            "full coin name": full_coin_name,
-            "current price": price,
-            "Currency": current_price_currency,
-            "24hr voulme": volume_24hr,
+            "coin_name": coin_name_abv,
+            "full_coin_name": full_coin_name,
+            "current_price": price,
+            "currency": current_price_currency,
+            "24hr_voulme": volume_24hr,
         }
 
     def run_scraper(self, file_name):

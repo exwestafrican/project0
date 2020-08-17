@@ -28,6 +28,10 @@ class FetchWebsiteData(ABC):
         with open(file_name, "w") as my_file:
             my_file.write(json.dumps(self.json_list, indent=2))
 
+    @abstractmethod
+    def create_json_object(self, buy, sell, quote_currency, base_currency):
+        pass
+
 
 class AbokiFxWebsiteData(FetchWebsiteData):
     def __init__(self, url, site_name):
@@ -94,3 +98,4 @@ class AbokiFxWebsiteData(FetchWebsiteData):
 
     def run_scraper(self, file_name):
         super().run_scraper(file_name)
+

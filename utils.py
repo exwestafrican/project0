@@ -83,4 +83,26 @@ def make_request(url, timeout=None, *args, **kwargs):
 make_request = CallCounter(make_request, 5)
 
 
+def curry_function(func, *args, **kwargs):
+    def func_passed_in(data):
+        return func(data, *args, **kwargs)
+
+    return func_passed_in
+
+
+def convert_str_to_float(value, delimiter: str, prefix: bool = False):
+    """
+    removes delimiter specifed in str 
+    from value and returns a type of float
+    """
+    if value is None:
+        return None
+    assert delimiter in value, f"Delimeter '{delimiter}' specified not in {value}"
+
+    value = value.split(delimiter)
+
+    value = value[1] if prefix else value[0]
+    # remove any ","
+    value = value.translate({ord(","): None})
+    return float(value)
 

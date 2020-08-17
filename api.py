@@ -96,5 +96,5 @@ class AbokiFxWebsiteData(FetchWebsiteData):
             self.json_list.append(self.create_json_object(**currency_pair))
 
     def run_scraper(self):
-        super().run_scraper()
+        return super().run_scraper()
 

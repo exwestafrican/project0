@@ -82,7 +82,7 @@ def make_request(url, timeout=None, *args, **kwargs):
             pass
 
 
-make_request = CallCounter(make_request, 5)
+make_request = CallCounter(make_request, 9)
 
 
 def curry_function(func, *args, **kwargs):

@@ -1,5 +1,5 @@
 time_out_settings = {
-    "request_time_out": 1,
+    "request_time_out": 20,
     "read_time_out": 25,
     "connection_time_out": 30,
 }

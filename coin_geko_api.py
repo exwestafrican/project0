@@ -61,7 +61,7 @@ class CoinGekopWebsiteData(FetchWebsiteData):
 
     def full_clean(self, data):
         if data is None or data == "":
-            return "N/A"
+            return "empty"
         return data.strip("\n")
 
     def get_data(
@@ -90,7 +90,8 @@ class CoinGekopWebsiteData(FetchWebsiteData):
             change.append(data)
         return data_set
 
-    def create_json_object(        self, coin_name_abv, full_coin_name, price, volume_24hr, current_price_currency
+    def create_json_object(
+        self, coin_name_abv, full_coin_name, price, volume_24hr, current_price_currency
     ):
         return {
             "coin_name": coin_name_abv,
@@ -100,7 +101,7 @@ class CoinGekopWebsiteData(FetchWebsiteData):
             "24hr_voulme": volume_24hr,
         }
 
-    def run_scraper(self, file_name):
-     
-        super().run_scraper(file_name)
+    def run_scraper(self):
+
+        super().run_scraper()
 

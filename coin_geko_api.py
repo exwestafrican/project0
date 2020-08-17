@@ -35,10 +35,9 @@ class CoinGekopWebsiteData(FetchWebsiteData):
 
             # strip new lines from data
             full_coin_name = self.full_clean(full_coin_name)
-          
+
             coin_name_abv = self.full_clean(coin_name_abv)
-         
-      
+
             dollar_changes = (
                 ["price", "td-price price text-right"],
                 ["volume_24hr", "td-liquidity_score lit text-right %> col-market"],
@@ -102,11 +101,5 @@ class CoinGekopWebsiteData(FetchWebsiteData):
         }
 
     def run_scraper(self, file_name):
-        # super().run_scraper(file_name)
-        self.get_table_content()
-        with open(file_name, "w") as my_file:
-            my_file.write(json.dumps(self.json_list, indent=2))
+        super().run_scraper(file_name)
 
-
-# geko = CoinGekopWebsiteData("https://www.coingecko.com/en", "CoinGeko")
-# geko.run_scraper("geko.json")

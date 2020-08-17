@@ -1,0 +1,632 @@
+[
+  {
+    "base_currency": "NGN",
+    "quote_curreny": "USD",
+    "buy": 470.0,
+    "sell": 475.0
+  },
+  {
+    "base_currency": "NGN",
+    "quote_curreny": "GBP",
+    "buy": 598.0,
+    "sell": 610.0
+  },
+  {
+    "base_currency": "NGN",
+    "quote_curreny": "EUR",
+    "buy": 540.0,
+    "sell": 547.0
+  },
+  {
+    "base_currency": "NGN",
+    "quote_curreny": "USD",
+    "buy": 470.0,
+    "sell": 475.0
+  },
+  {
+    "base_currency": "NGN",
+    "quote_curreny": "GBP",
+    "buy": 598.0,
+    "sell": 610.0
+  },
+  {
+    "base_currency": "NGN",
+    "quote_curreny": "EUR",
+    "buy": 540.0,
+    "sell": 547.0
+  },
+  {
+    "base_currency": "NGN",
+    "quote_curreny": "USD",
+    "buy": 470.0,
+    "sell": 475.0
+  },
+  {
+    "base_currency": "NGN",
+    "quote_curreny": "GBP",
+    "buy": 598.0,
+    "sell": 610.0
+  },
+  {
+    "base_currency": "NGN",
+    "quote_curreny": "EUR",
+    "buy": 540.0,
+    "sell": 547.0
+  },
+  {
+    "base_currency": "NGN",
+    "quote_curreny": "USD",
+    "buy": 470.0,
+    "sell": 475.0
+  },
+  {
+    "base_currency": "NGN",
+    "quote_curreny": "GBP",
+    "buy": 598.0,
+    "sell": 610.0
+  },
+  {
+    "base_currency": "NGN",
+    "quote_curreny": "EUR",
+    "buy": 540.0,
+    "sell": 547.0
+  },
+  {
+    "base_currency": "NGN",
+    "quote_curreny": "USD",
+    "buy": 470.0,
+    "sell": 475.0
+  },
+  {
+    "base_currency": "NGN",
+    "quote_curreny": "GBP",
+    "buy": 598.0,
+    "sell": 610.0
+  },
+  {
+    "base_currency": "NGN",
+    "quote_curreny": "EUR",
+    "buy": 540.0,
+    "sell": 548.0
+  },
+  {
+    "base_currency": "NGN",
+    "quote_curreny": "USD",
+    "buy": 470.0,
+    "sell": 475.0
+  },
+  {
+    "base_currency": "NGN",
+    "quote_curreny": "GBP",
+    "buy": 595.0,
+    "sell": 610.0
+  },
+  {
+    "base_currency": "NGN",
+    "quote_curreny": "EUR",
+    "buy": 540.0,
+    "sell": 548.0
+  },
+  {
+    "base_currency": "NGN",
+    "quote_curreny": "USD",
+    "buy": 468.0,
+    "sell": 475.0
+  },
+  {
+    "base_currency": "NGN",
+    "quote_curreny": "GBP",
+    "buy": 585.0,
+    "sell": 600.0
+  },
+  {
+    "base_currency": "NGN",
+    "quote_curreny": "EUR",
+    "buy": 535.0,
+    "sell": 545.0
+  },
+  {
+    "base_currency": "NGN",
+    "quote_curreny": "USD",
+    "buy": 468.0,
+    "sell": 475.0
+  },
+  {
+    "base_currency": "NGN",
+    "quote_curreny": "GBP",
+    "buy": 585.0,
+    "sell": 600.0
+  },
+  {
+    "base_currency": "NGN",
+    "quote_curreny": "EUR",
+    "buy": 535.0,
+    "sell": 545.0
+  },
+  {
+    "base_currency": "NGN",
+    "quote_curreny": "USD",
+    "buy": 468.0,
+    "sell": 475.0
+  },
+  {
+    "base_currency": "NGN",
+    "quote_curreny": "GBP",
+    "buy": 585.0,
+    "sell": 600.0
+  },
+  {
+    "base_currency": "NGN",
+    "quote_curreny": "EUR",
+    "buy": 535.0,
+    "sell": 545.0
+  },
+  {
+    "base_currency": "NGN",
+    "quote_curreny": "USD",
+    "buy": 468.0,
+    "sell": 474.0
+  },
+  {
+    "base_currency": "NGN",
+    "quote_curreny": "GBP",
+    "buy": 584.0,
+    "sell": 595.0
+  },
+  {
+    "base_currency": "NGN",
+    "quote_curreny": "EUR",
+    "buy": 535.0,
+    "sell": 544.0
+  },
+  {
+    "base_currency": "NGN",
+    "quote_curreny": "USD",
+    "buy": 468.0,
+    "sell": 474.0
+  },
+  {
+    "base_currency": "NGN",
+    "quote_curreny": "GBP",
+    "buy": 584.0,
+    "sell": 595.0
+  },
+  {
+    "base_currency": "NGN",
+    "quote_curreny": "EUR",
+    "buy": 535.0,
+    "sell": 544.0
+  },
+  {
+    "base_currency": "NGN",
+    "quote_curreny": "USD",
+    "buy": 468.0,
+    "sell": 473.0
+  },
+  {
+    "base_currency": "NGN",
+    "quote_curreny": "GBP",
+    "buy": 580.0,
+    "sell": 585.0
+  },
+  {
+    "base_currency": "NGN",
+    "quote_curreny": "EUR",
+    "buy": 530.0,
+    "sell": 536.0
+  },
+  {
+    "base_currency": "NGN",
+    "quote_curreny": "USD",
+    "buy": 466.0,
+    "sell": 473.0
+  },
+  {
+    "base_currency": "NGN",
+    "quote_curreny": "GBP",
+    "buy": 580.0,
+    "sell": 589.0
+  },
+  {
+    "base_currency": "NGN",
+    "quote_curreny": "EUR",
+    "buy": 530.0,
+    "sell": 538.0
+  },
+  {
+    "base_currency": "NGN",
+    "quote_curreny": "USD",
+    "buy": 468.0,
+    "sell": 473.0
+  },
+  {
+    "base_currency": "NGN",
+    "quote_curreny": "GBP",
+    "buy": 580.0,
+    "sell": 585.0
+  },
+  {
+    "base_currency": "NGN",
+    "quote_curreny": "EUR",
+    "buy": 530.0,
+    "sell": 538.0
+  },
+  {
+    "base_currency": "NGN",
+    "quote_curreny": "USD",
+    "buy": 468.0,
+    "sell": 473.0
+  },
+  {
+    "base_currency": "NGN",
+    "quote_curreny": "GBP",
+    "buy": 580.0,
+    "sell": 585.0
+  },
+  {
+    "base_currency": "NGN",
+    "quote_curreny": "EUR",
+    "buy": 530.0,
+    "sell": 538.0
+  },
+  {
+    "base_currency": "NGN",
+    "quote_curreny": "USD",
+    "buy": 468.0,
+    "sell": 473.0
+  },
+  {
+    "base_currency": "NGN",
+    "quote_curreny": "GBP",
+    "buy": 580.0,
+    "sell": 585.0
+  },
+  {
+    "base_currency": "NGN",
+    "quote_curreny": "EUR",
+    "buy": 530.0,
+    "sell": 538.0
+  },
+  {
+    "base_currency": "NGN",
+    "quote_curreny": "USD",
+    "buy": 468.0,
+    "sell": 473.0
+  },
+  {
+    "base_currency": "NGN",
+    "quote_curreny": "GBP",
+    "buy": 580.0,
+    "sell": 585.0
+  },
+  {
+    "base_currency": "NGN",
+    "quote_curreny": "EUR",
+    "buy": 528.0,
+    "sell": 538.0
+  },
+  {
+    "base_currency": "NGN",
+    "quote_curreny": "USD",
+    "buy": 465.0,
+    "sell": 473.0
+  },
+  {
+    "base_currency": "NGN",
+    "quote_curreny": "GBP",
+    "buy": 578.0,
+    "sell": 585.0
+  },
+  {
+    "base_currency": "NGN",
+    "quote_curreny": "EUR",
+    "buy": 525.0,
+    "sell": 535.0
+  },
+  {
+    "base_currency": "NGN",
+    "quote_curreny": "USD",
+    "buy": 465.0,
+    "sell": 472.0
+  },
+  {
+    "base_currency": "NGN",
+    "quote_curreny": "GBP",
+    "buy": 570.0,
+    "sell": 580.0
+  },
+  {
+    "base_currency": "NGN",
+    "quote_curreny": "EUR",
+    "buy": 518.0,
+    "sell": 530.0
+  },
+  {
+    "base_currency": "NGN",
+    "quote_curreny": "USD",
+    "buy": 465.0,
+    "sell": 472.0
+  },
+  {
+    "base_currency": "NGN",
+    "quote_curreny": "GBP",
+    "buy": 569.0,
+    "sell": 580.0
+  },
+  {
+    "base_currency": "NGN",
+    "quote_curreny": "EUR",
+    "buy": 518.0,
+    "sell": 528.0
+  },
+  {
+    "base_currency": "NGN",
+    "quote_curreny": "USD",
+    "buy": 465.0,
+    "sell": 472.0
+  },
+  {
+    "base_currency": "NGN",
+    "quote_curreny": "GBP",
+    "buy": 569.0,
+    "sell": 580.0
+  },
+  {
+    "base_currency": "NGN",
+    "quote_curreny": "EUR",
+    "buy": 518.0,
+    "sell": 528.0
+  },
+  {
+    "base_currency": "NGN",
+    "quote_curreny": "USD",
+    "buy": 465.0,
+    "sell": 472.0
+  },
+  {
+    "base_currency": "NGN",
+    "quote_curreny": "GBP",
+    "buy": 569.0,
+    "sell": 580.0
+  },
+  {
+    "base_currency": "NGN",
+    "quote_curreny": "EUR",
+    "buy": 518.0,
+    "sell": 528.0
+  },
+  {
+    "base_currency": "NGN",
+    "quote_curreny": "USD",
+    "buy": 465.0,
+    "sell": 470.0
+  },
+  {
+    "base_currency": "NGN",
+    "quote_curreny": "GBP",
+    "buy": 568.0,
+    "sell": 576.0
+  },
+  {
+    "base_currency": "NGN",
+    "quote_curreny": "EUR",
+    "buy": 518.0,
+    "sell": 528.0
+  },
+  {
+    "base_currency": "NGN",
+    "quote_curreny": "USD",
+    "buy": 465.0,
+    "sell": 470.0
+  },
+  {
+    "base_currency": "NGN",
+    "quote_curreny": "GBP",
+    "buy": 568.0,
+    "sell": 576.0
+  },
+  {
+    "base_currency": "NGN",
+    "quote_curreny": "EUR",
+    "buy": 515.0,
+    "sell": 528.0
+  },
+  {
+    "base_currency": "NGN",
+    "quote_curreny": "USD",
+    "buy": 463.0,
+    "sell": 470.0
+  },
+  {
+    "base_currency": "NGN",
+    "quote_curreny": "GBP",
+    "buy": 567.0,
+    "sell": 576.0
+  },
+  {
+    "base_currency": "NGN",
+    "quote_curreny": "EUR",
+    "buy": 510.0,
+    "sell": 523.0
+  },
+  {
+    "base_currency": "NGN",
+    "quote_curreny": "USD",
+    "buy": 460.0,
+    "sell": 470.0
+  },
+  {
+    "base_currency": "NGN",
+    "quote_curreny": "GBP",
+    "buy": 567.0,
+    "sell": 576.0
+  },
+  {
+    "base_currency": "NGN",
+    "quote_curreny": "EUR",
+    "buy": 508.0,
+    "sell": 523.0
+  },
+  {
+    "base_currency": "NGN",
+    "quote_curreny": "USD",
+    "buy": 460.0,
+    "sell": 470.0
+  },
+  {
+    "base_currency": "NGN",
+    "quote_curreny": "GBP",
+    "buy": 567.0,
+    "sell": 576.0
+  },
+  {
+    "base_currency": "NGN",
+    "quote_curreny": "EUR",
+    "buy": 508.0,
+    "sell": 515.0
+  },
+  {
+    "base_currency": "NGN",
+    "quote_curreny": "USD",
+    "buy": 460.0,
+    "sell": 470.0
+  },
+  {
+    "base_currency": "NGN",
+    "quote_curreny": "GBP",
+    "buy": 565.0,
+    "sell": 575.0
+  },
+  {
+    "base_currency": "NGN",
+    "quote_curreny": "EUR",
+    "buy": 505.0,
+    "sell": 515.0
+  },
+  {
+    "base_currency": "NGN",
+    "quote_curreny": "USD",
+    "buy": 460.0,
+    "sell": 468.0
+  },
+  {
+    "base_currency": "NGN",
+    "quote_curreny": "GBP",
+    "buy": 560.0,
+    "sell": 570.0
+  },
+  {
+    "base_currency": "NGN",
+    "quote_curreny": "EUR",
+    "buy": 505.0,
+    "sell": 515.0
+  },
+  {
+    "base_currency": "NGN",
+    "quote_curreny": "USD",
+    "buy": 458.0,
+    "sell": 468.0
+  },
+  {
+    "base_currency": "NGN",
+    "quote_curreny": "GBP",
+    "buy": 550.0,
+    "sell": 565.0
+  },
+  {
+    "base_currency": "NGN",
+    "quote_curreny": "EUR",
+    "buy": 498.0,
+    "sell": 510.0
+  },
+  {
+    "base_currency": "NGN",
+    "quote_curreny": "USD",
+    "buy": 458.0,
+    "sell": 466.0
+  },
+  {
+    "base_currency": "NGN",
+    "quote_curreny": "GBP",
+    "buy": 550.0,
+    "sell": 565.0
+  },
+  {
+    "base_currency": "NGN",
+    "quote_curreny": "EUR",
+    "buy": 498.0,
+    "sell": 510.0
+  },
+  {
+    "base_currency": "NGN",
+    "quote_curreny": "USD",
+    "buy": 458.0,
+    "sell": 467.0
+  },
+  {
+    "base_currency": "NGN",
+    "quote_curreny": "GBP",
+    "buy": 555.0,
+    "sell": 564.0
+  },
+  {
+    "base_currency": "NGN",
+    "quote_curreny": "EUR",
+    "buy": 498.0,
+    "sell": 506.0
+  },
+  {
+    "base_currency": "NGN",
+    "quote_curreny": "USD",
+    "buy": 458.0,
+    "sell": 467.0
+  },
+  {
+    "base_currency": "NGN",
+    "quote_curreny": "GBP",
+    "buy": 555.0,
+    "sell": 564.0
+  },
+  {
+    "base_currency": "NGN",
+    "quote_curreny": "EUR",
+    "buy": 498.0,
+    "sell": 506.0
+  },
+  {
+    "base_currency": "NGN",
+    "quote_curreny": "USD",
+    "buy": 453.0,
+    "sell": 462.0
+  },
+  {
+    "base_currency": "NGN",
+    "quote_curreny": "GBP",
+    "buy": 548.0,
+    "sell": 563.0
+  },
+  {
+    "base_currency": "NGN",
+    "quote_curreny": "EUR",
+    "buy": 498.0,
+    "sell": 506.0
+  },
+  {
+    "base_currency": "NGN",
+    "quote_curreny": "USD",
+    "buy": 453.0,
+    "sell": 461.0
+  },
+  {
+    "base_currency": "NGN",
+    "quote_curreny": "GBP",
+    "buy": 548.0,
+    "sell": 558.0
+  },
+  {
+    "base_currency": "NGN",
+    "quote_curreny": "EUR",
+    "buy": 490.0,
+    "sell": 502.0
+  }
+]

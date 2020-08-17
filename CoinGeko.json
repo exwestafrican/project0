@@ -1,0 +1,702 @@
+[
+  {
+    "coin name": "BTC",
+    "full coin name": "Bitcoin",
+    "current price": 11857.34,
+    "Currency": "USD",
+    "24hr voulme": 18879631309.0
+  },
+  {
+    "coin name": "ETH",
+    "full coin name": "Ethereum",
+    "current price": 426.26,
+    "Currency": "USD",
+    "24hr voulme": 11751609711.0
+  },
+  {
+    "coin name": "XRP",
+    "full coin name": "XRP",
+    "current price": 0.303098,
+    "Currency": "USD",
+    "24hr voulme": 2461549842.0
+  },
+  {
+    "coin name": "USDT",
+    "full coin name": "Tether",
+    "current price": 0.999525,
+    "Currency": "USD",
+    "24hr voulme": 32639714202.0
+  },
+  {
+    "coin name": "LINK",
+    "full coin name": "ChainLink",
+    "current price": 19.17,
+    "Currency": "USD",
+    "24hr voulme": 1218451665.0
+  },
+  {
+    "coin name": "BCH",
+    "full coin name": "Bitcoin Cash",
+    "current price": 314.39,
+    "Currency": "USD",
+    "24hr voulme": 3222477706.0
+  },
+  {
+    "coin name": "ADA",
+    "full coin name": "Cardano",
+    "current price": 0.143287,
+    "Currency": "USD",
+    "24hr voulme": 500273301.0
+  },
+  {
+    "coin name": "LTC",
+    "full coin name": "Litecoin",
+    "current price": 64.64,
+    "Currency": "USD",
+    "24hr voulme": 3550981893.0
+  },
+  {
+    "coin name": "BSV",
+    "full coin name": "Bitcoin SV",
+    "current price": 223.47,
+    "Currency": "USD",
+    "24hr voulme": 763570935.0
+  },
+  {
+    "coin name": "EOS",
+    "full coin name": "EOS",
+    "current price": 3.86,
+    "Currency": "USD",
+    "24hr voulme": 4313624115.0
+  },
+  {
+    "coin name": "BNB",
+    "full coin name": "Binance Coin",
+    "current price": 23.23,
+    "Currency": "USD",
+    "24hr voulme": 262528961.0
+  },
+  {
+    "coin name": "CRO",
+    "full coin name": "Crypto.com Coin",
+    "current price": 0.168842,
+    "Currency": "USD",
+    "24hr voulme": 71858983.0
+  },
+  {
+    "coin name": "XTZ",
+    "full coin name": "Tezos",
+    "current price": 4.2,
+    "Currency": "USD",
+    "24hr voulme": 248288691.0
+  },
+  {
+    "coin name": "XLM",
+    "full coin name": "Stellar",
+    "current price": 0.116956,
+    "Currency": "USD",
+    "24hr voulme": 320343035.0
+  },
+  {
+    "coin name": "TRX",
+    "full coin name": "TRON",
+    "current price": 0.02996289,
+    "Currency": "USD",
+    "24hr voulme": 1284556754.0
+  },
+  {
+    "coin name": "OKB",
+    "full coin name": "OKB",
+    "current price": 5.88,
+    "Currency": "USD",
+    "24hr voulme": 51525497.0
+  },
+  {
+    "coin name": "XMR",
+    "full coin name": "Monero",
+    "current price": 91.16,
+    "Currency": "USD",
+    "24hr voulme": 77995746.0
+  },
+  {
+    "coin name": "ATOM",
+    "full coin name": "Cosmos",
+    "current price": 6.17,
+    "Currency": "USD",
+    "24hr voulme": 347905949.0
+  },
+  {
+    "coin name": "VET",
+    "full coin name": "VeChain",
+    "current price": 0.02051069,
+    "Currency": "USD",
+    "24hr voulme": 178592235.0
+  },
+  {
+    "coin name": "LEO",
+    "full coin name": "LEO Token",
+    "current price": 1.28,
+    "Currency": "USD",
+    "24hr voulme": 13216497.0
+  },
+  {
+    "coin name": "USDC",
+    "full coin name": "USD Coin",
+    "current price": 0.999292,
+    "Currency": "USD",
+    "24hr voulme": 430016785.0
+  },
+  {
+    "coin name": "MIOTA",
+    "full coin name": "IOTA",
+    "current price": 0.42029,
+    "Currency": "USD",
+    "24hr voulme": 26930815.0
+  },
+  {
+    "coin name": "NEO",
+    "full coin name": "NEO",
+    "current price": 16.15,
+    "Currency": "USD",
+    "24hr voulme": 335459977.0
+  },
+  {
+    "coin name": "HT",
+    "full coin name": "Huobi Token",
+    "current price": 4.78,
+    "Currency": "USD",
+    "24hr voulme": 102512257.0
+  },
+  {
+    "coin name": "CDAI",
+    "full coin name": "cDAI",
+    "current price": 0.02073406,
+    "Currency": "USD",
+    "24hr voulme": 1606770.0
+  },
+  {
+    "coin name": "DASH",
+    "full coin name": "Dash",
+    "current price": 98.92,
+    "Currency": "USD",
+    "24hr voulme": 492906111.0
+  },
+  {
+    "coin name": "ETC",
+    "full coin name": "Ethereum Classic",
+    "current price": 7.41,
+    "Currency": "USD",
+    "24hr voulme": 817008423.0
+  },
+  {
+    "coin name": "ZEC",
+    "full coin name": "Zcash",
+    "current price": 85.74,
+    "Currency": "USD",
+    "24hr voulme": 660052180.0
+  },
+  {
+    "coin name": "SNX",
+    "full coin name": "Synthetix Network Token",
+    "current price": 6.67,
+    "Currency": "USD",
+    "24hr voulme": 67741896.0
+  },
+  {
+    "coin name": "LEND",
+    "full coin name": "Aave",
+    "current price": 0.568285,
+    "Currency": "USD",
+    "24hr voulme": 100660558.0
+  },
+  {
+    "coin name": "MKR",
+    "full coin name": "Maker",
+    "current price": 710.74,
+    "Currency": "USD",
+    "24hr voulme": 47657303.0
+  },
+  {
+    "coin name": "XEM",
+    "full coin name": "NEM",
+    "current price": 0.07061832,
+    "Currency": "USD",
+    "24hr voulme": 23352945.0
+  },
+  {
+    "coin name": "COMP",
+    "full coin name": "Compound",
+    "current price": 196.14,
+    "Currency": "USD",
+    "24hr voulme": 74209711.0
+  },
+  {
+    "coin name": "ONT",
+    "full coin name": "Ontology",
+    "current price": 0.91735,
+    "Currency": "USD",
+    "24hr voulme": 298786165.0
+  },
+  {
+    "coin name": "ALGO",
+    "full coin name": "Algorand",
+    "current price": 0.660273,
+    "Currency": "USD",
+    "24hr voulme": 340912514.0
+  },
+  {
+    "coin name": "BAT",
+    "full coin name": "Basic Attention Token",
+    "current price": 0.318832,
+    "Currency": "USD",
+    "24hr voulme": 344639787.0
+  },
+  {
+    "coin name": "DGB",
+    "full coin name": "DigiByte",
+    "current price": 0.03520415,
+    "Currency": "USD",
+    "24hr voulme": 19290174.0
+  },
+  {
+    "coin name": "WAVES",
+    "full coin name": "Waves",
+    "current price": 4.57,
+    "Currency": "USD",
+    "24hr voulme": 349532969.0
+  },
+  {
+    "coin name": "DOGE",
+    "full coin name": "Dogecoin",
+    "current price": 0.00362525,
+    "Currency": "USD",
+    "24hr voulme": 166682917.0
+  },
+  {
+    "coin name": "CETH",
+    "full coin name": "cETH",
+    "current price": 8.53,
+    "Currency": "USD",
+    "24hr voulme": 16440990.0
+  },
+  {
+    "coin name": "ZRX",
+    "full coin name": "0x",
+    "current price": 0.596858,
+    "Currency": "USD",
+    "24hr voulme": 183478084.0
+  },
+  {
+    "coin name": "DAI",
+    "full coin name": "Dai",
+    "current price": 1.01,
+    "Currency": "USD",
+    "24hr voulme": 65574669.0
+  },
+  {
+    "coin name": "OMG",
+    "full coin name": "OMG Network",
+    "current price": 2.98,
+    "Currency": "USD",
+    "24hr voulme": 652716472.0
+  },
+  {
+    "coin name": "THETA",
+    "full coin name": "Theta Network",
+    "current price": 0.404717,
+    "Currency": "USD",
+    "24hr voulme": 48574317.0
+  },
+  {
+    "coin name": "EWT",
+    "full coin name": "Energy Web Token",
+    "current price": 12.55,
+    "Currency": "USD",
+    "24hr voulme": 2602656.0
+  },
+  {
+    "coin name": "UMA",
+    "full coin name": "UMA",
+    "current price": 7.0,
+    "Currency": "USD",
+    "24hr voulme": 2200171.0
+  },
+  {
+    "coin name": "REN",
+    "full coin name": "REN",
+    "current price": 0.42045,
+    "Currency": "USD",
+    "24hr voulme": 95246747.0
+  },
+  {
+    "coin name": "KNC",
+    "full coin name": "Kyber Network",
+    "current price": 1.88,
+    "Currency": "USD",
+    "24hr voulme": 81260896.0
+  },
+  {
+    "coin name": "BTT",
+    "full coin name": "BitTorrent",
+    "current price": 0.00054753,
+    "Currency": "USD",
+    "24hr voulme": 65916711.0
+  },
+  {
+    "coin name": "QTUM",
+    "full coin name": "Qtum",
+    "current price": 3.49,
+    "Currency": "USD",
+    "24hr voulme": 479437190.0
+  },
+  {
+    "coin name": "NMR",
+    "full coin name": "Numeraire",
+    "current price": 63.45,
+    "Currency": "USD",
+    "24hr voulme": 7961731.0
+  },
+  {
+    "coin name": "FTT",
+    "full coin name": "FTX Token",
+    "current price": 3.45,
+    "Currency": "USD",
+    "24hr voulme": 4870372.0
+  },
+  {
+    "coin name": "BAND",
+    "full coin name": "Band Protocol",
+    "current price": 14.98,
+    "Currency": "USD",
+    "24hr voulme": 87910730.0
+  },
+  {
+    "coin name": "ICX",
+    "full coin name": "ICON",
+    "current price": 0.532021,
+    "Currency": "USD",
+    "24hr voulme": 25728363.0
+  },
+  {
+    "coin name": "ZIL",
+    "full coin name": "Zilliqa",
+    "current price": 0.02636268,
+    "Currency": "USD",
+    "24hr voulme": 85445369.0
+  },
+  {
+    "coin name": "TUSD",
+    "full coin name": "TrueUSD",
+    "current price": 0.9991,
+    "Currency": "USD",
+    "24hr voulme": 136285107.0
+  },
+  {
+    "coin name": "ERD",
+    "full coin name": "Elrond",
+    "current price": 0.02136209,
+    "Currency": "USD",
+    "24hr voulme": 19317762.0
+  },
+  {
+    "coin name": "HBAR",
+    "full coin name": "Hedera Hashgraph",
+    "current price": 0.05284836,
+    "Currency": "USD",
+    "24hr voulme": 10841043.0
+  },
+  {
+    "coin name": "LSK",
+    "full coin name": "Lisk",
+    "current price": 1.82,
+    "Currency": "USD",
+    "24hr voulme": 12089198.0
+  },
+  {
+    "coin name": "PAX",
+    "full coin name": "Paxos Standard",
+    "current price": 0.999381,
+    "Currency": "USD",
+    "24hr voulme": 181036845.0
+  },
+  {
+    "coin name": "AUSDC",
+    "full coin name": "Aave USDC",
+    "current price": 0.992958,
+    "Currency": "USD",
+    "24hr voulme": 1765848.0
+  },
+  {
+    "coin name": "LUNA",
+    "full coin name": "Terra",
+    "current price": 0.575525,
+    "Currency": "USD",
+    "24hr voulme": 14243574.0
+  },
+  {
+    "coin name": "LRC",
+    "full coin name": "Loopring",
+    "current price": 0.197906,
+    "Currency": "USD",
+    "24hr voulme": 53905505.0
+  },
+  {
+    "coin name": "NEST",
+    "full coin name": "Nest Protocol",
+    "current price": 0.138297,
+    "Currency": "USD",
+    "24hr voulme": 61625357.0
+  },
+  {
+    "coin name": "STX",
+    "full coin name": "Blockstack",
+    "current price": 0.276432,
+    "Currency": "USD",
+    "24hr voulme": 2991332.0
+  },
+  {
+    "coin name": "ALINK",
+    "full coin name": "Aave LINK",
+    "current price": 18.96,
+    "Currency": "USD",
+    "24hr voulme": 4309792.0
+  },
+  {
+    "coin name": "SXP",
+    "full coin name": "Swipe",
+    "current price": 3.29,
+    "Currency": "USD",
+    "24hr voulme": 224463538.0
+  },
+  {
+    "coin name": "DCR",
+    "full coin name": "Decred",
+    "current price": 17.6,
+    "Currency": "USD",
+    "24hr voulme": 8718746.0
+  },
+  {
+    "coin name": "HYN",
+    "full coin name": "Hyperion",
+    "current price": 1.0,
+    "Currency": "USD",
+    "24hr voulme": 13016956.0
+  },
+  {
+    "coin name": "YFI",
+    "full coin name": "yearn.finance",
+    "current price": 6923.98,
+    "Currency": "USD",
+    "24hr voulme": 33768222.0
+  },
+  {
+    "coin name": "ANT",
+    "full coin name": "Aragon",
+    "current price": 5.96,
+    "Currency": "USD",
+    "24hr voulme": 17034745.0
+  },
+  {
+    "coin name": "BTG",
+    "full coin name": "Bitcoin Gold",
+    "current price": 11.52,
+    "Currency": "USD",
+    "24hr voulme": 10773271.0
+  },
+  {
+    "coin name": "OCEAN",
+    "full coin name": "Ocean Protocol",
+    "current price": 0.573141,
+    "Currency": "USD",
+    "24hr voulme": 31621622.0
+  },
+  {
+    "coin name": "ENJ",
+    "full coin name": "Enjin Coin",
+    "current price": 0.210373,
+    "Currency": "USD",
+    "24hr voulme": 12638789.0
+  },
+  {
+    "coin name": "BUSD",
+    "full coin name": "Binance USD",
+    "current price": 0.998791,
+    "Currency": "USD",
+    "24hr voulme": 220110217.0
+  },
+  {
+    "coin name": "CKB",
+    "full coin name": "Nervos Network",
+    "current price": 0.00940746,
+    "Currency": "USD",
+    "24hr voulme": 11073346.0
+  },
+  {
+    "coin name": "NXM",
+    "full coin name": "NXM",
+    "current price": 28.28,
+    "Currency": "USD",
+    "24hr voulme": 3203391.0
+  },
+  {
+    "coin name": "RVN",
+    "full coin name": "Ravencoin",
+    "current price": 0.02667363,
+    "Currency": "USD",
+    "24hr voulme": 30520701.0
+  },
+  {
+    "coin name": "ATUSD",
+    "full coin name": "Aave TUSD",
+    "current price": 0.998052,
+    "Currency": "USD",
+    "24hr voulme": 16581428.0
+  },
+  {
+    "coin name": "BTM",
+    "full coin name": "Bytom",
+    "current price": 0.110201,
+    "Currency": "USD",
+    "24hr voulme": 25430482.0
+  },
+  {
+    "coin name": "SC",
+    "full coin name": "Siacoin",
+    "current price": 0.0039483,
+    "Currency": "USD",
+    "24hr voulme": 9802203.0
+  },
+  {
+    "coin name": "RSR",
+    "full coin name": "Reserve Rights Token",
+    "current price": 0.02490764,
+    "Currency": "USD",
+    "24hr voulme": 34237013.0
+  },
+  {
+    "coin name": "RUNE",
+    "full coin name": "Thorchain",
+    "current price": 0.927627,
+    "Currency": "USD",
+    "24hr voulme": 3371367.0
+  },
+  {
+    "coin name": "NANO",
+    "full coin name": "Nano",
+    "current price": 1.24,
+    "Currency": "USD",
+    "24hr voulme": 10652257.0
+  },
+  {
+    "coin name": "AMPL",
+    "full coin name": "Ampleforth",
+    "current price": 0.597949,
+    "Currency": "USD",
+    "24hr voulme": 9859547.0
+  },
+  {
+    "coin name": "HOT",
+    "full coin name": "Holo",
+    "current price": 0.00089208,
+    "Currency": "USD",
+    "24hr voulme": 17030956.0
+  },
+  {
+    "coin name": "BCD",
+    "full coin name": "Bitcoin Diamond",
+    "current price": 0.837694,
+    "Currency": "USD",
+    "24hr voulme": 5201885.0
+  },
+  {
+    "coin name": "SNT",
+    "full coin name": "Status",
+    "current price": 0.03771666,
+    "Currency": "USD",
+    "24hr voulme": 22400921.0
+  },
+  {
+    "coin name": "KAVA",
+    "full coin name": "Kava",
+    "current price": 5.3,
+    "Currency": "USD",
+    "24hr voulme": 73043423.0
+  },
+  {
+    "coin name": "CEL",
+    "full coin name": "Celsius Network",
+    "current price": 0.392797,
+    "Currency": "USD",
+    "24hr voulme": 1169423.0
+  },
+  {
+    "coin name": "MONA",
+    "full coin name": "MonaCoin",
+    "current price": 1.93,
+    "Currency": "USD",
+    "24hr voulme": 3736871.0
+  },
+  {
+    "coin name": "BNT",
+    "full coin name": "Bancor Network Token",
+    "current price": 2.13,
+    "Currency": "USD",
+    "24hr voulme": 80812585.0
+  },
+  {
+    "coin name": "BAL",
+    "full coin name": "Balancer",
+    "current price": 19.7,
+    "Currency": "USD",
+    "24hr voulme": 34604555.0
+  },
+  {
+    "coin name": "QNT",
+    "full coin name": "Quant",
+    "current price": 11.4,
+    "Currency": "USD",
+    "24hr voulme": 12333861.0
+  },
+  {
+    "coin name": "HUSD",
+    "full coin name": "HUSD",
+    "current price": 0.998474,
+    "Currency": "USD",
+    "24hr voulme": 16294751.0
+  },
+  {
+    "coin name": "MANA",
+    "full coin name": "Decentraland",
+    "current price": 0.09704126,
+    "Currency": "USD",
+    "24hr voulme": 45475640.0
+  },
+  {
+    "coin name": "RLC",
+    "full coin name": "iExec RLC",
+    "current price": 1.82,
+    "Currency": "USD",
+    "24hr voulme": 12161309.0
+  },
+  {
+    "coin name": "RENBTC",
+    "full coin name": "renBTC",
+    "current price": 11769.96,
+    "Currency": "USD",
+    "24hr voulme": 26303874.0
+  },
+  {
+    "coin name": "KSM",
+    "full coin name": "Kusama",
+    "current price": 13.58,
+    "Currency": "USD",
+    "24hr voulme": 7693804.0
+  },
+  {
+    "coin name": "CUSDC",
+    "full coin name": "cUSDC",
+    "current price": 0.02109965,
+    "Currency": "USD",
+    "24hr voulme": 1722259.0
+  }
+]

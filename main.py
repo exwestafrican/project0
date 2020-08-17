@@ -11,7 +11,7 @@ site_name = ["AbokiFx", "CoinGeko"]
 
 def main(class_name, url, site_name):
     class_instance = class_name(url, site_name)
-    class_instance.run_scraper()
+    return class_instance.run_scraper()
 
 
 with concurrent.futures.ThreadPoolExecutor() as executor:

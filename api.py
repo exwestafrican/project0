@@ -24,7 +24,9 @@ class FetchWebsiteData(ABC):
 
     @abstractmethod
     def run_scraper(self, file_name):
+        print("this")
         self.get_table_content()
+        print(self.json_list)
         with open(file_name, "w") as my_file:
             my_file.write(json.dumps(self.json_list, indent=2))
 
@@ -97,5 +99,6 @@ class AbokiFxWebsiteData(FetchWebsiteData):
             self.json_list.append(self.create_json_object(**currency_pair))
 
     def run_scraper(self, file_name):
+
         super().run_scraper(file_name)
 

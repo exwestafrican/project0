@@ -60,8 +60,9 @@ class CoinGekopWebsiteData(FetchWebsiteData):
             self.json_list.append(self.create_json_object(**data_dict))
 
     def full_clean(self, data):
-        data = data.strip("\n")
-        return data
+        if data is None or data == "":
+            return "empty"
+        return data.strip("\n")
 
     def get_data(
         self, class_name: str, row, tag: str = "td",
@@ -93,13 +94,14 @@ class CoinGekopWebsiteData(FetchWebsiteData):
         self, coin_name_abv, full_coin_name, price, volume_24hr, current_price_currency
     ):
         return {
-            "coin name": coin_name_abv,
-            "full coin name": full_coin_name,
-            "current price": price,
-            "Currency": current_price_currency,
-            "24hr voulme": volume_24hr,
+            "coin_name": coin_name_abv,
+            "full_coin_name": full_coin_name,
+            "current_price": price,
+            "currency": current_price_currency,
+            "24hr_voulme": volume_24hr,
         }
 
-    def run_scraper(self, file_name):
-        super().run_scraper(file_name)
+    def run_scraper(self):
+
+        super().run_scraper()
 

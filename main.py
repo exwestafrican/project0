@@ -11,8 +11,7 @@ site_name = ["AbokiFx", "CoinGeko"]
 
 def main(class_name, url, site_name):
     class_instance = class_name(url, site_name)
-    # json object returned here
-    print(class_instance.run_scraper())
+    # json object returned
     return class_instance.run_scraper()
 
 

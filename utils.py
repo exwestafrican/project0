@@ -35,8 +35,8 @@ class CallCounter:
 
 
 def full_clean(data):
-    # if data is None or data == "":
-    #     return "N/A"
+    if data is None or data == "":
+        return "empty"
     return data.strip("/n")
 
 

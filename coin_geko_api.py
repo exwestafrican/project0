@@ -1,5 +1,6 @@
 from api import FetchWebsiteData
 from bs4 import BeautifulSoup
+from datetime import datetime
 from utils import make_request, curry_function, convert_str_to_float
 import json
 
@@ -21,8 +22,9 @@ class CoinGekopWebsiteData(FetchWebsiteData):
 
     def get_table_content(self):
         table_body_rows = self.get_raw_data(self.url)
+        date = datetime.now().strftime("%d/%m/%Y")     
         for table_body_row in table_body_rows:
-            data_dict = {}
+            data_dict = {"date": date}
             # edit this to get all items
             # getting items on table
             coin_row = table_body_row.find("td", class_="py-0 coin-name")
@@ -91,9 +93,17 @@ class CoinGekopWebsiteData(FetchWebsiteData):
         return data_set
 
     def create_json_object(
-        self, coin_name_abv, full_coin_name, price, volume_24hr, current_price_currency
+        self,
+        coin_name_abv,
+        full_coin_name,
+        price,
+        volume_24hr,
+        current_price_currency,
+        date,
     ):
+
         return {
+            "date": date,
             "coin_name": coin_name_abv,
             "full_coin_name": full_coin_name,
             "current_price": price,

@@ -1,7 +1,7 @@
 from settings import time_out_settings
 import requests
 from requests.exceptions import ConnectTimeout, ReadTimeout
-from utils import CallCounter, make_request
+from utils import CallCounter, make_request, convert_str_to_date_time
 from abc import ABC, abstractmethod
 from bs4 import BeautifulSoup
 import json
@@ -73,21 +73,23 @@ class AbokiFxWebsiteData(FetchWebsiteData):
             usd_price = table_items[1].text
             gpb_price = table_items[2].text
             eur_price = table_items[3].text
-            self.extend_json_list([usd_price, gpb_price, eur_price])
+            self.extend_json_list([usd_price, gpb_price, eur_price], date)
 
-    def create_json_object(self, buy, sell, quote_currency, base_currency):
+    def create_json_object(self, buy, sell, quote_currency, base_currency, date):
+
         return {
+            "date": date,
             "base_currency": base_currency,
             "quote_curreny": quote_currency,
             "buy": buy,
             "sell": sell,
         }
 
-    def extend_json_list(self, prices):
+    def extend_json_list(self, prices, date):
         currency_pairs = [
-            {"quote_currency": "USD", "base_currency": "NGN"},
-            {"quote_currency": "GBP", "base_currency": "NGN"},
-            {"quote_currency": "EUR", "base_currency": "NGN"},
+            {"quote_currency": "USD", "base_currency": "NGN", "date": date},
+            {"quote_currency": "GBP", "base_currency": "NGN", "date": date},
+            {"quote_currency": "EUR", "base_currency": "NGN", "date": date},
         ]
         for price, currency_pair in zip(prices, currency_pairs):
             buy, sell = self.get_buy_sell(price)
